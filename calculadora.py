@@ -1,5 +1,11 @@
-#CALCULADORA COMPLEXA
-selecao = int(input("Selecione 1 para conta de adição, 2 para conta de subtração e 3 para conta de divisão"))
+#CALCULADORA BÁSICA | BY KALLYD
+print("Calculadora básica criada por Kallyd!!!")
+print("Selecione as opções abaixo : ")
+print("1 Para calculos de adição '+' ")
+print("2 Para calculos de subtração '-' ")
+print("3 Para calculos de divisão '/' ")
+selecao = input("Digite a opção: ")
+selecao = int(selecao)
 #========================== [ ADIÇÃO ]  ===========================================
 if selecao == 1 :
     print("Perfeito!! você selecionou a opção de adição, segue as regras abaixo!!")
@@ -17,6 +23,6 @@ elif selecao == 3:
     print("Perfeito!!, Você selecionou a opção de divisão!!")
     div1 = int(input("Qual o primeiro número: "))
     div2 = int(input("Qual o segundo número: "))
-    print(f"Resultado { div1 + div2 }")
+    print(f"Resultado { div1 // div2 }")
 else:
-    print("Não foi possível efetuar a conta")
+    print("Você não selecionou a opção correta!!")
